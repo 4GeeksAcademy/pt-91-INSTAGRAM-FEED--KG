@@ -1,0 +1,20 @@
+body {
+    background: gray;
+}
+
+header {
+    background: white;
+}
+div.post {
+    background: white;
+}
+div.post img {
+    width: 100%;
+}
+header h1 {
+    margin: 0;
+}
+div.container {
+    margin: auto;
+    width: 600px;
+}
