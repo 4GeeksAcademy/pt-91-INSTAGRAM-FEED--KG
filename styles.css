@@ -4,6 +4,8 @@ body {
 
 header {
     background: white;
+    text-align: center;
+    padding: 10px;
 }
 div.post {
     background: white;
@@ -11,9 +13,16 @@ div.post {
 div.post img {
     width: 100%;
 }
+div.post h2, div.post p {
+    padding: 10px;
+}
+div.post .post-header div:first-child{ 
+    display: inline-block;
+    background: pink;
+    
+}
 header h1 {
     margin: 0;
-    text-align: center;
 }
 div.container {
     margin: auto;
