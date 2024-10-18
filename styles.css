@@ -3,7 +3,7 @@ body {
 }
 
 div { 
-    box-sizing: border-box;   
+    box-sizing: border-box;  
 }
 
 header {
@@ -48,6 +48,9 @@ header h1 {
 div.container {
     margin: auto;
     width: 550px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 h2 {
