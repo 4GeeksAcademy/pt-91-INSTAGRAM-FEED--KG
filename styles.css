@@ -3,7 +3,8 @@ body {
 }
 
 div { 
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
 }
 
 header {
