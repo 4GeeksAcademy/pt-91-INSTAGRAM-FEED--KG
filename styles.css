@@ -7,8 +7,7 @@ div {
     
 }
 header {
-    background: white;
-    text-align: center;
+    background: white;	
     padding: 10px;
 }
 div.post {
@@ -21,6 +20,7 @@ div.post img {
 div.post h2, div.post p {
     padding: 10px;
     margin: 0;
+    text-align: left;
 }
 div.post .post-header div:first-child{ 
     display: inline-block;
@@ -39,4 +39,7 @@ header h1 {
 div.container {
     margin: auto;
     width: 600px;
+}
+h2 {
+    color: black;
 }
