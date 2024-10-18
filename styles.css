@@ -1,32 +1,38 @@
 body {
     background: #E0E0E0;
 }
+
 div { 
-    box-sizing: border-box;
-   
-    
+    box-sizing: border-box;   
 }
+
 header {
     background: white;	
     padding: 10px;
 }
+
 div.post {
     background: white;
     margin-top: 60px;
     margin-bottom: 60px;
+    border-top: 1px solid transparent;
 }
+
 div.post img {
     width: 100%;
 }
+
 div.post h2, div.post p {
     padding: 10px;
     margin: 0;
     text-align: left;
 }
+
 div.post .post-header div:first-child{ 
     display: inline-block;
     width: 80%;  
 }
+
 div.post .post-header div:last-child{ 
     display: inline-block;
     width: 98%;
@@ -34,13 +40,16 @@ div.post .post-header div:last-child{
     text-align: right;
     color: gray;
 }
+
 header h1 {
     margin: 0;
 }
+
 div.container {
     margin: auto;
     width: 550px;
 }
+
 h2 {
     color: black;
 }
