@@ -20,15 +20,11 @@ header {
 
 div.post {
     background: #E0E0E0;
+    display: flex;
+    justify-content: center;
     margin-top: 60px;
-    margin-right: auto;
     margin-bottom: 60px;
-    margin-left: auto;
     border-top: 1px solid transparent;
-    width: 90%;
-    max-width: 800px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
 }
 
 div.post img {
@@ -44,6 +40,7 @@ div.post.zoom img {
 div.post h2, div.post p {
     padding: 10px;
     margin: 0;
+    text-align: left;
 }
 
 div.post .post-header div:first-child{ 
@@ -66,10 +63,10 @@ header h1 {
 div.container {
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+    
 }
 
 h2 {
