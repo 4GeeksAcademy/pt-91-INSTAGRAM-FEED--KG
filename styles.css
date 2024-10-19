@@ -98,3 +98,7 @@ div.post .post-header div:last-child{
 h2 {
     color: black;
 }
+
+div.post p {
+    margin-bottom: 0;
+}
