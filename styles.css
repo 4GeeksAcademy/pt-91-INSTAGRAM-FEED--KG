@@ -22,9 +22,9 @@ div.post {
     background: #E0E0E0;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    border-top: 1px solid transparent;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 div.post img {
