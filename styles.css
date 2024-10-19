@@ -79,7 +79,7 @@ div.post.zoom img {
 div.post h2, div.post p {
     padding: 10px;
     margin: 0;
-    text-align: left;
+    text-align: justify;
 }
 
 div.post .post-header div:first-child{ 
@@ -88,7 +88,8 @@ div.post .post-header div:first-child{
 }
 
 div.post .post-header div:last-child{ 
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     width: 98%;
     padding: 10px;
     text-align: right;
