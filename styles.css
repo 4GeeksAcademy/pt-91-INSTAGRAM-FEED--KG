@@ -1,8 +1,10 @@
 body {
-    margin: 0px;
-    height: 100%;
-    background-color: black;
-    display: block;
+    background: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 div { 
@@ -10,7 +12,7 @@ div {
     -webkit-user-select: none;
     user-select: none;
     margin: auto;
-    cursor: zoom-in;
+    cursor: -webkit-zoom-in;
 }
 
 header {
@@ -20,11 +22,15 @@ header {
 
 div.post {
     background: #E0E0E0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 1px solid transparent;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 div.post img {
@@ -60,13 +66,12 @@ header h1 {
     margin: 0;
 }
 
-div.container {
-    margin: auto;
+.container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 550px;
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 h2 {
